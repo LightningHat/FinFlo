@@ -228,3 +228,9 @@ img{
     }
 }
 
+/* Add this to your CSS file */
+.login__account{
+    margin: 10px;
+    padding: 30px;
+    color:#9D4BFF;
+}
