@@ -321,7 +321,6 @@ nav h3 {
     position: absolute;
     border-radius: 50%;
     background: linear-gradient(to top right, #f8fc19, #8a18fc);
-    /* background: linear-gradient(to top right,red,blue); */
 
 
     top: 58%;
@@ -346,4 +345,9 @@ nav h3 {
         transform: translate(-10%, 10%) skew(-12deg);
     }
 }
-
+#page3 {
+    min-height: 50vh;
+    width: 50%;
+    background-color: #EFEAE300;
+    padding: 6vw 0;
+}
