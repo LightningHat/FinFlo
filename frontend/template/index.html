@@ -8,164 +8,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="frontend/static/css/style.css">
-    <style>
-        * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: neu;
-}
-
-html, body {
-    height: 100%;
-    width: 100%;
-}
-
-#main {
-    position: relative;
-    z-index: 10;
-}
-#page1 {
-    min-height: 100vh;
-    width: 100%;
-    background-color: #000;
-    position: relative;
-    padding: 0 2vw;
-}
-nav {
-    padding: 2vw 0vw;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    position: relative;
-    z-index: 100;
-    color: #8F7E77;
-    justify-content: space-between;
-}
-#nav-part2 {
-    display: flex;
-    align-items: center;
-    gap: 1vw;
-}
-
-#nav-part2 h4 {
-    padding: 10px 20px;
-    border: 1px solid #4f8735;
-    border-radius: 50px;
-    font-weight: 500;
-    color: #8F7E77;
-    transition: all ease 0.4s;
-    position: relative;
-    font-size: 18px;
-    overflow: hidden;
-}
-
-#nav-part2 h4::after {
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    left: 0;
-    bottom: -100%;
-    border-radius: 50%;
-    transition: all ease 0.4s;
-}
-
-#nav-part2 h4:hover::after {
-    bottom: 0;
-    border-radius: 0;
-}
-
-#nav-part2 h4 a {
-    color: #8F7E77;
-    text-decoration: none;
-    position: relative;
-    z-index: 9;
-}
-
-#nav-part2 h4:hover a {
-    color: #fff;
-}
-
-nav h3 {
-    display: none;
-}
-#center {
-    height: 65vh;
-    width: 100%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    border-bottom: 1px solid #0000003c;
-    padding-bottom: 2.5vw;
-}
-
-#left h3 {
-    width: 25vw;
-    color: #8F7E77;
-    font-size: 1.8vw;
-    line-height: 2vw;
-}
-
-#center h1 {
-    font-size: 10vw;
-    color: #4f8735;
-    text-align: right;
-    line-height: 8vw;
-}
-#page1 video {
-    position: relative;
-    border-radius: 30px;
-    margin-top: 4vw;
-    width: 100%;
-}
-#hero-shape {
-    position: absolute;
-    width: 46vw;
-    height: 36vw;
-    right: 0;
-    top: 75vh;
-}
-
-#hero-1 {
-    background-color: #fbf832;
-    height: 100%;
-    width: 100%;
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
-    filter: blur(10px);
-    position: absolute;
-}
-#hero-2 {
-    background: linear-gradient(to top right, #f8fc19, #8a18fc);
-
-    height: 30vw;
-    width: 30vw;
-    border-radius: 50%;
-    position: absolute;
-    animation-name: anime2;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    filter: blur(25px);
-}
-#hero-3 {
-    background: linear-gradient(to top right, #f8fc19, #8a18fc);
-    height: 30vw;
-    position: absolute;
-    width: 30vw;
-    border-radius: 50%;
-    filter: blur(25px);
-    animation-name: anime1;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-    </style>
 </head>
 <body>
     <div id="loader">
@@ -235,5 +77,43 @@ nav h3 {
                     <div id="gola"></div>
                 </div>
             </div>
+            <div id="page2-bottom">
+              <div id="cards-container">
+                <div class="card" id="card1">
+                   <div class="overlay">
+                      <h4>Optimize, Grow,
+                         <br> Succeed !</br></h4>
+                           <p>
+                             Leverage powerful analytics to refine your investment strategy.
+                             Make data-driven decisions that drive smarter, more profitable growth.
+                              </p>
+                             </div>
+                         </div>
+                           <div class="card" id="card2">
+                             <div class="overlay">
+                               <h4>Smarter Investments, 
+                                <br>Bigger Gains</br></h4>
+                                 <p>
+                                   Unlock intelligent fund analysis powered by AI and predictive analytics.
+                                    Optimize your strategy, minimize risks, and stay ahead of the market🚀
+                                    </p>
+                                  </div>
+                                </div>
+                                <div class="card" id="card3">
+                                  <div class="overlay">
+                                    <h4>Smarter Investing 
+                                      <br> Starts Here</br></h4>
+                                    <p>
+                                        Gain deep insights, minimize risks, and maximize returns effortlessly.
+                                        Powered by AI-driven analytics to help you make confident investment decisions.
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>          
+                          </div>
+                          <div id="gooey">
+
+                          </div>
+                      </div>
 </body>
 </html>
