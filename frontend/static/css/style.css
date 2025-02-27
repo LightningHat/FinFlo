@@ -225,3 +225,12 @@ nav h3 {
   .card:hover {
     transform: scale(1.1);
   }
+  #card1 {
+    background-image: url();
+  }
+  #card2 {
+    background-image:url();
+  }
+  #card3 {
+    background-image: url();
+  }
