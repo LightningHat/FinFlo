@@ -1,0 +1,8 @@
+Flask==2.3.2
+google-auth==2.22.0
+google-auth-oauthlib==1.0.0
+google-auth-httplib2==0.1.0
+google-api-python-client==2.92.0
+SQLAlchemy==2.0.20
+Flask-SQLAlchemy==3.0.5
+Flask-Migrate==4.0.5
