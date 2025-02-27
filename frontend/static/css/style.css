@@ -140,3 +140,16 @@ nav h3 {
     animation-direction: alternate;
     filter: blur(25px);
 }
+#hero-3 {
+    background: linear-gradient(to top right, #f8fc19, #8a18fc);
+    height: 30vw;
+    position: absolute;
+    width: 30vw;
+    border-radius: 50%;
+    filter: blur(25px);
+    animation-name: anime1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
