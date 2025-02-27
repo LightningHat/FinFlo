@@ -203,3 +203,12 @@ nav h3 {
     /* background-color: lightblue; */
     display: inline-block;
 }
+#cards-container {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    position: relative;
+    z-index: 10;
+  }
