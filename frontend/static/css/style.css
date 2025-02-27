@@ -282,41 +282,41 @@ nav h3 {
     }
 }
 #page2-bottom {
-    height: 50vh;
-    width: 150%;
+    height: 80vh;
+    width: 100%;
       color: #4f8735;
     padding: 6vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: relative;
-    z-index: 5;
+    z-index: 9;
 }
 
 #page2-bottom h1 {
-    font-size: 14vw;
-    width: 80%;
-    line-height: 8vw;
+    font-size: 4vw;
+    width: 60%;
+    line-height: 4vw;
 }
 
 #bottom-part2 {
-    width: 60%;
+    width: 20%;
   
 }
 
 #bottom-part2 img {
-    width: 150%;
-    border-radius: 30px;
+    width: 100%;
+    border-radius: 15px;
 }
 
 #bottom-part2 p {
     font-weight: 200;
-    margin-top: 5vw;
-    font-size: 8vw;
+    margin-top: 2vw;
+    font-size: 1vw;
 }
 
 #page2 #gooey {
-    height: 80vw;
+    height: 32vw;
     width: 32vw;
     position: absolute;
     border-radius: 50%;
@@ -346,3 +346,4 @@ nav h3 {
         transform: translate(-10%, 10%) skew(-12deg);
     }
 }
+
