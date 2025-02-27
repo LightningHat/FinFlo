@@ -281,3 +281,68 @@ nav h3 {
         transform: translateX(-100%);
     }
 }
+#page2-bottom {
+    height: 50vh;
+    width: 150%;
+      color: #4f8735;
+    padding: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 5;
+}
+
+#page2-bottom h1 {
+    font-size: 14vw;
+    width: 80%;
+    line-height: 8vw;
+}
+
+#bottom-part2 {
+    width: 60%;
+  
+}
+
+#bottom-part2 img {
+    width: 150%;
+    border-radius: 30px;
+}
+
+#bottom-part2 p {
+    font-weight: 200;
+    margin-top: 5vw;
+    font-size: 8vw;
+}
+
+#page2 #gooey {
+    height: 80vw;
+    width: 32vw;
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(to top right, #f8fc19, #8a18fc);
+    /* background: linear-gradient(to top right,red,blue); */
+
+
+    top: 58%;
+    left: 25%;
+    filter: blur(20px);
+    animation-name: gooey;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes gooey {
+    from {
+        filter: blur(20px);
+        transform: translate(10%, -10%) skew(0);
+    }
+
+    to {
+        filter: blur(30px);
+        transform: translate(-10%, 10%) skew(-12deg);
+    }
+}
