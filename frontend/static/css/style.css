@@ -212,3 +212,15 @@ nav h3 {
     position: relative;
     z-index: 10;
   }
+  .card {
+    height: 100%;
+    width: 60%
+    border-radius: 20px;
+        background-position: :read-only
+    overflow: hidden;
+    transition: all ease 0.9s;
+    
+  }
+  .card:hover {
+    transform: scale();
+  }
