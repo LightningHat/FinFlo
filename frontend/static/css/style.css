@@ -234,3 +234,20 @@ nav h3 {
   #card3 {
     background-image: url();
   }
+  .overlay {
+    height: 50%;
+    width: 200%;
+    padding: 60px;
+    padding-top: 100px;
+    opacity: 0;
+    transition: all ease 0.9s;
+  }
+  .overlay h4 {
+    color: #e8e41b;
+    font-size: 35px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin-bottom: 60px;
+    font-weight: 400;
+    text-align: center;
+  }
