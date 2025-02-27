@@ -180,3 +180,12 @@ nav h3 {
     padding: 8vw 0;
     position: relative;
 }
+#moving-text {
+    color: #8F7E77;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+#moving-text::-webkit-scrollbar {
+    display: none;
+}
