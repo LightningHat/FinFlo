@@ -83,7 +83,6 @@ nav h3 {
 #center {
     height: 65vh;
     width: 100%;
-    /* background-color: orange; */
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -103,4 +102,10 @@ nav h3 {
     color: #4f8735;
     text-align: right;
     line-height: 8vw;
+}
+#page1 video {
+    position: relative;
+    border-radius: 30px;
+    margin-top: 4vw;
+    width: 100%;
 }
