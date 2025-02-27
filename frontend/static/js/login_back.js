@@ -7,12 +7,14 @@ function handleCredentialResponse(response) {
     console.log("Image URL: " + data.picture);
     console.log("Email: " + data.email);
 
-    // Save user data to session or local storage
-    localStorage.setItem('userEmail', data.email);
+    // Save user data to localStorage
+    localStorage.setItem('userID', data.sub);
     localStorage.setItem('userName', data.name);
+    localStorage.setItem('userEmail', data.email);
+    localStorage.setItem('userPicture', data.picture);
 
-    // Load Google API after successful login
-    loadGoogleAPI();
+    // Redirect to the dashboard
+    window.location.href = 'dashboard.html';
 }
 
 function loadGoogleAPI() {
