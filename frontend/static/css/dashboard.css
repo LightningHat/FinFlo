@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4a90e2;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.user-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-profile span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+    padding: 40px 10%;
+}
+
+.dashboard-container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.dashboard-container p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Spending Summary */
+.spending-summary {
+    margin-top: 40px;
+}
+
+.spending-summary h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.chart-container {
+    background-color: #fff;
+    height: 36rem;
+    width: 35rem;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

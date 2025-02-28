@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - FinFlo</title>
+    <link rel="stylesheet" href="../static/css/dashboard.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">FinFlo</div>
+        <div class="user-profile">
+            <img id="userPicture" src="" alt="Profile Picture">
+            <span id="userName"></span>
+        </div>
+    </nav>
+
+    <div class="dashboard-container">
+        <h1>Welcome, <span id="dashboardUserName"></span></h1>
+        
+        <h2>Name: <span id="dashboardName"></span></h2>
+        <p>Email: <span id="dashboardUserEmail"></span></p>
+         
+        <div class="spending-summary">
+            <h2>Spending Summary</h2>
+            <div class="chart-container">
+                <canvas id="spendingChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include Chart.js for visualizations -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../static/js/dashboard.js"></script>
+</body>
+</html>
