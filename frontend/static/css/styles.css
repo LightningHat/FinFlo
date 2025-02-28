@@ -226,13 +226,13 @@ nav h3 {
     transform: scale(1.1);
   }
   #card1 {
-    background-image: url();
+    background-image: url(../../assets/login_image/pexels-bertellifotografia-1789335.jpg);
   }
   #card2 {
-    background-image:url();
+    background-image: url(../../assets/login_image/pexels-tima-miroshnichenko-7567565.jpg);
   }
   #card3 {
-    background-image: url();
+    background-image: url(../../assets/login_image/pexels-brian-ngali-3025845-18706593.jpg);
   }
   .overlay {
     height: 100%;
