@@ -403,36 +403,35 @@ nav h3 {
     padding: 10vw 2vw;
 }
 #about-us {
-    height: 80vh;
-    width: 150%;
+    height: 40vh;
+    width: 100%;
     display: flex;
-    padding: 0 70px;
+    padding: 0 50px;
     align-items: center;
     position: relative;
     z-index: 10;
     justify-content: space-around;
   }
   #about-us img {
-    height: 280px;
-    width: 280px;
-    border-radius: 40px;
+    height: 220px;
+    width: 220px;
+    border-radius: 20px;
     object-fit: cover;
   }
   #about-us-in {
-    width: 150%;
+    width: 50%;
     text-align: center;
   }
  
   #about-us-in h3 {
-    font-size: 85px;
+    font-size: 100px;
     font-weight: 800;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
   #about-us-in p {
-    font-size: 40px;
-    line-height: 46px;
+    font-size: 20px;
+    line-height: 26px;
   }
-
 #page5 {
     height: 100vh;
     width: 100%;
