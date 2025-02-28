@@ -2,10 +2,10 @@ import os
 import re
 import base64
 from datetime import datetime
-from google.auth.transport.requests import Request
-from google.oauth2.credentials import Credentials
-from google_auth_oauthlib.flow import InstalledAppFlow
-from googleapiclient.discovery import build
+from google.auth.transport.requests import Request  # type: ignore
+from google.oauth2.credentials import Credentials  # type: ignore
+from google_auth_oauthlib.flow import InstalledAppFlow  # type: ignore
+from googleapiclient.discovery import build  # type: ignore
 
 # Gmail API Scopes
 SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
@@ -126,3 +126,26 @@ def parse_transactions(emails):
             'category': category
         })
     return transactions
+
+def main():
+    """
+    Main function to fetch, parse, and display transactions.
+    """
+    print("Fetching emails...")
+    emails = fetch_emails()
+    print(f"Found {len(emails)} emails.")
+
+    print("Parsing transactions...")
+    transactions = parse_transactions(emails)
+
+    print("\nTransactions:")
+    for transaction in transactions:
+        print(f"Subject: {transaction['subject']}")
+        print(f"Amount: ₹{transaction['amount']}")
+        print(f"Merchant: {transaction['merchant']}")
+        print(f"Date: {transaction['date']}")
+        print(f"Category: {transaction['category']}")
+        print("-" * 40)
+
+if __name__ == '__main__':
+    main()

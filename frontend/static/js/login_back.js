@@ -91,3 +91,18 @@ function initializeGoogleSignIn() {
 
 // Ensure Google Sign-In initializes after the DOM loads
 window.onload = initializeGoogleSignIn;
+
+// export const logout=(req, res)=>{
+//     req.logout((err) => {
+//         if (err) {
+//             return res.status(500).json({ message: 'Unable to log out' });
+//         }
+//         req.session=null;
+//         res.json({ message: 'Logged out' });
+
+        
+
+
+
+//     });
+// };

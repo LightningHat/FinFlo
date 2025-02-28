@@ -6,13 +6,14 @@ const userPicture = localStorage.getItem('userPicture');
 // Display user details on the dashboard
 document.getElementById('userName').textContent = userName;
 document.getElementById('dashboardUserName').textContent = userName;
+document.getElementById('dashboardName').textContent = userName;
 document.getElementById('dashboardUserEmail').textContent = userEmail;
 document.getElementById('userPicture').src = userPicture;
 
 // Example: Render a spending chart using Chart.js
 const ctx = document.getElementById('spendingChart').getContext('2d');
 const spendingChart = new Chart(ctx, {
-    type: 'bar',
+    type: 'pie',
     data: {
         labels: ['Food', 'Shopping', 'Travel', 'Bills', 'Entertainment'],
         datasets: [{
